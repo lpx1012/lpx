@@ -1,0 +1,79 @@
+*{ margin: 0; padding: 0; color: #000;}
+a{ color: #999; text-decoration: none;}
+ul{ list-style: none;}
+/*页面头部*/
+header{ background: #f5f5f5; height: 2.5rem; font-size: 14px; line-height: 40px;}
+.w1200{ width: 1200px; margin: 0 auto;}
+.fl{ float: left;}
+.fr{ float: right;}
+.fr a{margin: 0 10px;color: #666;	font-size:14px;}
+/*导航栏*/
+nav{height: 100px;	line-height:100px;}
+nav a img{	height: 70px; margin-top: 15px;}
+nav ul{	float: right;}
+nav ul li{float: left; margin: 0 10px;}
+nav ul li a{	color: black; font-size: 15px;}
+nav ul li a:hover{ color: #ef8200;}
+/*用户登录*/
+.banner { height: 500px; background: url(../img/背景.jpg); position: relative;} 
+.container { position: absolute; right: 120px; top:80px; width:300px; height: 320px;
+	background-color: #ffffff; border-radius: 10px; box-shadow: 2px 2px 2px 0px #333;} 
+.title{ font-size: 24px; font-weight: bold; text-align: center;padding:10px 0; } 
+.banner form{ padding: 10px 20px; } 
+.form-group{ display: block; margin:5px 0: }
+.form-input{ height: 30px; width: 80%; border: 1px solid #ccc; border-radius: 5px;
+	padding: 5px 10px; outline:none; }
+.form-p{ font-size: 14px; color:#ccc; cursor: pointer; }
+#form-p{ width: 20px; height:20px; vertical-align: middle; }
+form div{ padding:5px 0px; }
+a.form-p{ margin-left:20px; }
+.form-button{ width: 90%; height:40px; background-color: #66a3ff; border:none;
+	margin: 10px; color: #ffffff;}
+	
+.breaderumb{	padding: 30px 0 30px 0;	font-family:"微软雅黑";}
+.breadcrumb span img{
+	display: inline-block; 
+	vertical-align: middle;
+	margin-right: 5px;}
+.breadcrumb span{
+	color: #333;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	display: inline-block;
+	margin:0 5px;
+	cursor: pointer;}
+.breadcrumb span.on{ color: #EF8200;}
+
+/*位置信息*/
+.divide{ background: #F5F5F5;	line-height: 50px; margin:0 0 30px 0;}
+.divide span{ display: inline-block; height: 50px; padding: 0 25px; cursor: pointer;
+	font-size: 14px; color: #333; transition: all 0.6s;} 
+.divide span.on,.divide span:hover{ background: #EF8200;	color: #fff;}
+
+
+/*课程展示模块样式*/
+.casepage ul .p1{ font-size: 16px; olor: #000; padding: 5px 0;
+	transition:all 0.6s;/*设置动画过渡*/}
+.casepage ul .p2{ font-size: 14px; color: #666;}
+.casepage ul li {/*课程列表样式*/
+	float: left; margin-right: 25px; margin-bottom: 25px;
+transition: all 0.6s;/*设置动画过渡*/
+box-shadow: 0 0 15px 0px rgba(0,0,0,0.1);/* 设置课程列表的阴影效果*//*水平阴影位置 垂直阴影位置模糊半径，阴影大小颜色*/
+}
+.casepage ul li .caset,.casepage ul li .caset img{
+	display: block; width:260px; height: 160px; overflow: hidden;
+	transition: all 0.6s;/*设置动画过渡*/}
+.casepage ul{ margin-right: -25px;}
+.casepage ul li .caset:hover img{ transform: scale（1.1);}/* 实现鼠标悬浮在图片上时图片的放大*/
+.casepage ul li .casec{ padding: 0 10px 10px 10px;}
+.casepage ul li .casec:hover .P1{color: #EF8200;}/*实现鼠标悬浮在图片上时图片的放大
+*//*分页*/
+.fenye{ text-align: center; padding:30px 0 50px 0;}
+.fenye a{ display: inline-block; padding: 0 20px; height: 40px; border: 1px solid 
+#eee; background: #fff;	color: #555; line-height: 40px; text-align: center;
+	transition: all 1s; margin:0 5px; }
+.fenye span{ display: inline-block; padding: 0 20px; height: 40px; 
+border: 1px solid #eee; background: #f551df; color: #fff; 
+cursor: pointer; line-height: 40px; text-align: center; transition: all 1s;
+margin:0 5px; }
+.fenye a:hover,.fenye a.on{background: #EF8200; color: #fff; cursor: pointer;}
